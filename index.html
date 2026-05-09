@@ -39,56 +39,76 @@
 
         /* add media for small device */
         @media screen and (max-width:576px) {
-            nav{
+            nav {
                 /* display: none; */
             }
         }
-
     </style>
 </head>
 
 <body class="sora-font">
     <!-- header section -->
-    <header class="max-w-[1224px] mx-auto">
-        <!-- navbar start -->
-        <nav>
-            <div class="navbar gap-x-40">
-                <div class="navbar-start   ">
-                    <div class="dropdown">
-                        <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
-                            <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24"
-                                stroke="currentColor">
-                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                                    d="M4 6h16M4 12h8m-8 6h16" />
-                            </svg>
+    <header class="bg-gradient-to-b from-[#FFFFFF] to-[#EFEBE3]">
+        <header class="max-w-[1224px] mx-auto">
+            <!-- navbar start -->
+            <nav>
+                <div class="navbar gap-x-40">
+                    <div class="navbar-start   ">
+                        <div class="dropdown">
+                            <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+                                <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24"
+                                    stroke="currentColor">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                        d="M4 6h16M4 12h8m-8 6h16" />
+                                </svg>
+                            </div>
+                            <ul tabindex="0"
+                                class="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow">
+                                <li><a>Product</a></li>
+                                <li><a>Services</a></li>
+                                <li><a>Contact Us</a></li>
+                            </ul>
                         </div>
-                        <ul tabindex="0"
-                            class="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow">
+                        <img class="" src="c2-assets/logo-header.png" alt="">
+                    </div>
+                    <div class="navbar-center hidden lg:flex text-2xl">
+                        <ul class="menu menu-horizontal px-1">
                             <li><a>Product</a></li>
                             <li><a>Services</a></li>
                             <li><a>Contact Us</a></li>
                         </ul>
                     </div>
-                    <img class="" src="c2-assets/logo-header.png" alt="">
+                    <div class="navbar-end gap-x-5 hidden lg:block  ">
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                        <i class="fa-solid fa-cart-shopping"></i>
+                        <a class="btn border border-primary-color">Login</a>
+                        <a class="btn bg-primary-color text-white">Register</a>
+                    </div>
                 </div>
-                <div class="navbar-center hidden lg:flex text-2xl">
-                    <ul class="menu menu-horizontal px-1">
-                        <li><a>Product</a></li>
-                        <li><a>Services</a></li>
-                        <li><a>Contact Us</a></li>
-                    </ul>
+            </nav>
+            <hr class="lg:hidden border border-x-2 border-primary-color">
+
+            <!-- banner start -->
+            <div>
+                <div class="hero  mt-20 mb-10">
+                    <div class="hero-content text-center">
+                        <div class="max-w-lg">
+                            <h1 class="text-5xl font-bold">Freshness <span class="text-primary-color">You Can
+                                Count</span> On, Prices You’ll Love!</h1>
+                            <p class="py-6">
+                                Shop your daily essentials at unbeatable prices. From fresh produce to pantry staples,
+                                we’ve
+                                got
+                                you covered every day!
+                            </p>
+                        </div>
+                    </div>
                 </div>
-                <div class="navbar-end gap-x-5 hidden lg:block  ">
-                    <i class="fa-solid fa-magnifying-glass"></i>
-                    <i class="fa-solid fa-cart-shopping"></i>
-                    <a class="btn border border-primary-color">Login</a>
-                    <a class="btn bg-primary-color text-white">Register</a>
+                <div class="justify-center grid">
+                    <img class="border" src="c2-assets/hero-vegetables.png" alt="">
                 </div>
             </div>
-        </nav>
-        <hr class="lg:hidden border border-x-2 border-primary-color">
-
-        <!-- banner start -->
+        </header>
     </header>
 
     <!-- main section -->
